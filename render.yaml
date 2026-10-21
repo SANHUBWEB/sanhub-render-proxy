@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sanhub-render-proxy
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
